@@ -1,0 +1,37 @@
+// This is your Prisma schema file
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+model Transcript {
+  id        String   @id @default(uuid())
+  title     String
+  content   String   @db.Text
+  segments  Json     @default("[]")
+  speakers  Json     @default("[]")
+  duration  Float    @default(0)
+  fileSize  Int      @default(0)
+  mimeType  String   @default("audio/mpeg")
+  language  String   @default("en")
+  status    Status   @default(PENDING)
+  isDeleted Boolean  @default(false)
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+
+  @@index([status])
+  @@index([createdAt])
+  @@index([isDeleted])
+}
+
+enum Status {
+  PENDING
+  PROCESSING
+  DONE
+  ERROR
+}
