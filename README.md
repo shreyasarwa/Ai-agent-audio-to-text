@@ -1,11 +1,11 @@
 <div align="center">
   <h1>🎙️ VoxAI</h1>
   <p><strong>Fast, accurate, AI-powered audio transcription.</strong></p>
-  <p>
+  <!-- <p>
     <img src="https://img.shields.io/badge/status-active-success.svg" alt="Status" />
     <img src="https://img.shields.io/badge/license-MIT-blue.svg" alt="License" />
     <img src="https://img.shields.io/badge/PRs-welcome-brightgreen.svg" alt="PRs Welcome" />
-  </p>
+  </p> -->
 </div>
 
 ---
@@ -18,7 +18,7 @@ Built with an emphasis on a distraction-free, modern UI and real-time feedback.
 
 **Target users:** Journalists, researchers, students, and content creators who need reliable transcriptions without navigating clunky enterprise tools.
 
-## ✨ Features
+## Features
 
 - **Upload & Record:** Drop your audio files directly into the app, or use your microphone for live recording.
 - **Real-Time Progress:** See exactly where your transcription is in the pipeline via WebSocket updates.
@@ -26,7 +26,7 @@ Built with an emphasis on a distraction-free, modern UI and real-time feedback.
 - **Interactive Transcripts:** Click through transcription segments with timestamps.
 - **Modern UI:** A clean, card-based interface built with React and custom CSS (no generic templates here).
 
-## 🛠 Tech Stack
+## Tech Stack
 
 **Frontend**
 - React (via Vite)
@@ -40,7 +40,7 @@ Built with an emphasis on a distraction-free, modern UI and real-time feedback.
 - Prisma (ORM)
 - WebSockets (`ws`) for real-time client communication
 
-## 🚀 Getting Started
+## Getting Started
 
 ### Prerequisites
 Make sure you have [Node.js](https://nodejs.org/) (v18+) and [PostgreSQL](https://www.postgresql.org/) installed and running.
@@ -80,7 +80,7 @@ npm run dev
 ### 4. Open the App
 Visit `http://localhost:5173` in your browser.
 
-## 📁 Project Structure
+## Project Structure
 
 ```text
 voxai/
@@ -100,22 +100,22 @@ voxai/
     └── package.json
 ```
 
-## 📸 Sneak Peek
+## Sneak Peek
 
-*(Add your screenshots here)*
 
-<img src="https://via.placeholder.com/800x400?text=Dashboard+Screenshot" alt="Dashboard" width="100%" />
+
+<img src="/Users/shreyasarwa/Ai agent audio to tex/Dashboard.png" alt="Dashboard" width="100%" />
 <br/>
-<img src="https://via.placeholder.com/800x400?text=Transcription+View+Screenshot" alt="Transcription" width="100%" />
+<!-- <img src="https://via.placeholder.com/800x400?text=Transcription+View+Screenshot" alt="Transcription" width="100%" /> -->
 
-## 🛣 Roadmap
+## Roadmap
 
 - [ ] Support for multiple languages and translation
 - [ ] Export transcripts as PDF / SRT
 - [ ] Speaker diarization (detecting "Speaker 1", "Speaker 2")
 - [ ] Cloud storage integration (S3/GCS) for larger files
 
-## 🤝 Contributing
+## Contributing
 
 Contributions make the open-source community an amazing place to learn, inspire, and create. Any contributions you make are **greatly appreciated**.
 
@@ -125,12 +125,9 @@ Contributions make the open-source community an amazing place to learn, inspire,
 4. Push to the Branch (`git push origin feature/AmazingFeature`)
 5. Open a Pull Request
 
-## 📄 License
 
-Distributed under the MIT License. See `LICENSE` for more information.
+## Author
 
-## 👤 Author
+**[Shreya Sarwa]** 
 
-**[Your Name]** 
-- Twitter: [@yourhandle](https://twitter.com/yourhandle)
-- GitHub: [@yourusername](https://github.com/yourusername)
+- GitHub: [@shreyasarwa](https://github.com/shreyasarwa)
