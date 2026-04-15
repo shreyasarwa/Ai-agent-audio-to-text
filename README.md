@@ -133,4 +133,4 @@ Distributed under the MIT License. See `LICENSE` for more information.
 
 **[Shreya Sarwa]** 
 
-- GitHub: (https://github.com/shreyasarwa)
+- GitHub: (@shreyasarwa)(https://github.com/shreyasarwa)
