@@ -78,7 +78,7 @@ npm run dev
 ```
 
 ### 4. Open the App
-Visit `ai-agent-audio-to-text-pw8dijbsw-shreyasarwas-projects.vercel.app` in your browser.
+Visit `https://ai-agent-audio-to-text.vercel.app` in your browser.
 
 ## Project Structure
 
