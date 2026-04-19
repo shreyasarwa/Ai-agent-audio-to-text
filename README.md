@@ -1,5 +1,5 @@
 <div align="center">
-  <h1>🎙️ VoxAI</h1>
+  <h1> VoxAI</h1>
   <p><strong>Fast, accurate, AI-powered audio transcription.</strong></p>
   <!-- <p>
     <img src="https://img.shields.io/badge/status-active-success.svg" alt="Status" />
